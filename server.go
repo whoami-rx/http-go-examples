@@ -1,7 +1,14 @@
 package main
 
-import "fmt"
+import (
+	"log"
+	"net/http"
+)
 
 func main() {
-	fmt.Println("Hello, Gold!")
+	m := http.NewServeMux()
+	fs := http.FileServer(http.Dir("public"))
+	m.Handle("/", fs)
+	log.Println("Server running at :8080")
+	log.Fatal(http.ListenAndServe(":8080", m))
 }

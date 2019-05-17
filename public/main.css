@@ -1,0 +1,30 @@
+*,
+*:after,
+*:before {
+	box-sizing: border-box;
+	margin: 0;
+}
+
+body {
+	background: #f8f8f8;
+	font-size: calc(14px + .3vw);
+	font-family: 'Roboto', 'Helvetica', arial;
+}
+
+.container {
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+button {
+	width: 200px;
+	height: 50px;
+	font-size: 1em;
+	cursor: pointer;
+	background: none;
+	border: 1px dotted #194523;
+	outline: none;
+}
