@@ -7,3 +7,4 @@
 * [Middleware](https://github.com/whoami-rx/http-go-examples/tree/middlewares)
 * [HTPP methods](https://github.com/whoami-rx/http-go-examples/tree/middlewares)
 * [Serve Static Files](https://github.com/whoami-rx/http-go-examples/tree/static-files)
+* [Json](https://github.com/whoami-rx/http-go-examples/tree/json)
